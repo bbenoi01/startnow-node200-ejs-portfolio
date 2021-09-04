@@ -1,0 +1,28 @@
+{
+  "name": "startnow-node200-ejs-portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbenoi01/My-personal-portfolio.git"
+  },
+  "author": "Brandon Benoit <b.nutty@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbenoi01/My-personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/bbenoi01/My-personal-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "twilio": "^3.9.2"
+  }
+}
